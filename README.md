@@ -46,14 +46,6 @@ npm run build
 - ZenTao authentication is still managed by `zentao login`
 - ZenTao base URLs usually include `/zentao`
 
-## Marketplace sync
-
-This repository is the source of truth for `zentao-plugin`.
-
-To enable automatic sync into `port-wind/marketplace` after each push to `main`, configure:
-
-- `PORT_WIND_MARKETPLACE_TOKEN`: a token that can send `repository_dispatch` events to `port-wind/marketplace`
-
 ## GitHub Pages
 
 The repository includes a lightweight Astro site for GitHub Pages:
